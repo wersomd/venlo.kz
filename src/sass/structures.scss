@@ -1,0 +1,186 @@
+.structures {
+  background: url("../img/hero/hero-bg.jpg") center center/cover no-repeat;
+  height: 40vh;
+
+  &-title {
+    padding-top: 100px;
+    color: #fff;
+  }
+}
+
+// engineering section
+
+.engineering {
+  padding-top: 100px;
+
+  &-body {
+    display: flex;
+    align-items: center;
+    margin: 0 -20px;
+  }
+
+  &-column {
+    flex: 0 1 50%;
+    padding: 0 20px;
+  }
+
+  &-title {
+    margin-bottom: 20px;
+  }
+
+  &-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+  }
+}
+
+.title-30 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #00913b;
+}
+
+// end engineering section
+
+//  advantages section
+.advantages {
+  padding-top: 100px;
+
+  &-title {
+    margin-bottom: 50px;
+  }
+
+  &-row {
+    display: flex;
+    margin: 0 -20px 80px;
+
+    .block-40 {
+      flex: 0 1 40%;
+    }
+
+    .block-15 {
+      flex: 0 1 15%;
+    }
+
+    .block-65 {
+      flex: 0 1 66.666%;
+    }
+  }
+
+  &-column {
+    flex: 0 1 33.3333%;
+    padding: 0 20px;
+  }
+
+  &-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #00913b;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 47px;
+  }
+
+  &-descr {
+    padding: 22px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 155%;
+    color: #111;
+    background: #f7f7f7;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  &-bottom {
+    display: flex;
+  }
+
+  &-icon {
+    margin-right: 12px;
+  }
+
+  &-text {
+    width: 100%;
+    padding: 22px;
+    background-color: #e2f8eb;
+    border-radius: 10px;
+  }
+
+  &-image {
+    img {
+      border-radius: 20px;
+    }
+  }
+}
+
+// end  advantages section
+
+// aluminum section
+.aluminum {
+  padding-top: 100px;
+  background-color: #f0f0f0;
+
+  img {
+    border-radius: 20px;
+  }
+
+  &-body {
+    display: flex;
+    padding: 100px 0px;
+
+    > div {
+      flex: 0 1 50%;
+    }
+  }
+
+  &-info {
+    margin-right: 40px;
+  }
+
+  &-title {
+    margin-bottom: 30px;
+  }
+
+  &-list {
+    > li:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &-item {
+    position: relative;
+    font-size: 16px;
+    line-height: 155%;
+    padding-left: 20px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 7px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #00913b;
+    }
+  }
+
+  &-main-image {
+    margin-bottom: 40px;
+  }
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+// end aluminum section

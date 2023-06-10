@@ -1,0 +1,256 @@
+.contacts {
+  background: url("../img/hero/hero-bg.jpg") center center/cover no-repeat;
+  height: 40vh;
+
+  &-title {
+    padding-top: 100px;
+    color: #fff;
+  }
+}
+
+// ADDRESS SECTION
+.address {
+  padding-top: 100px;
+
+  &-blocks {
+    display: flex;
+    margin: 0 -20px;
+  }
+
+  &-block-column {
+    flex: 0 1 33.3333%;
+    padding: 0 20px;
+  }
+
+  &-block {
+    color: #111;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 40px 28px;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+  }
+
+  &-top {
+    height: 155px;
+    padding-bottom: 12px;
+  }
+
+  &-name {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 150%;
+    text-transform: uppercase;
+  }
+
+  &-city {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 155%;
+  }
+
+  &-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 155%;
+    padding-bottom: 12px;
+
+    div {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 150%;
+    }
+  }
+
+  &-contact {
+    padding-bottom: 12px;
+
+    &-label {
+      font-weight: 400;
+      font-size: 14px;
+      padding-bottom: 5px;
+    }
+
+    &-phone {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 150%;
+      text-transform: uppercase;
+    }
+  }
+
+  .green-block {
+    color: #fff;
+    background-color: #007530;
+  }
+}
+
+// END ADDRESS SECTION
+
+// CONTACT SECTION
+.contact {
+  padding-top: 100px;
+
+  &-body {
+    display: flex;
+  }
+
+  &-content {
+    padding: 0 97px 0 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-title {
+    color: #00913b;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+  }
+
+  &-items {
+    flex: 1 1 auto;
+  }
+
+  &-item {
+    margin-bottom: 24px;
+    display: flex;
+    color: #111;
+  }
+
+  &-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #00913b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
+
+  &-label {
+    margin-bottom: 5px;
+  }
+
+  &-text {
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  &-lets {
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #e71c1c;
+  }
+}
+
+// END CONTACT SECTION
+
+// MAP SECTION
+.map {
+  padding: 100px 0;
+
+  &-body {
+    padding: 40px 0;
+    border-radius: 20px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-title {
+    width: 267px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #00913b;
+    margin-right: 68px;
+  }
+}
+
+// END MAP SECTION
+
+// CONSULT SECTION
+
+.consultation {
+  background-color: #007530;
+
+  &-body {
+    padding: 100px 0 80px;
+    color: #fff;
+  }
+
+  &-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  &-descr {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 155%;
+    margin-bottom: 50px;
+  }
+
+  &-inputs {
+    width: 785px;
+    display: flex;
+  }
+
+  &-form {
+    display: flex;
+    margin-bottom: 20px;
+
+    input {
+      width: 100%;
+      color: #fff;
+      font-size: 16px;
+      padding: 19px 35px;
+      background-color: #0d9c48;
+      border-radius: 57px;
+      margin-right: 40px;
+      outline: none;
+      border: 1px solid rgba(137, 137, 162, 0.5);
+      transition: border-color 0.4s ease-in-out;
+
+      &::placeholder {
+        font-size: 14px;
+        color: #fff;
+      }
+
+      &:focus {
+        border-color: #007530;
+      }
+    }
+  }
+
+  &-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 19px 76px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #00913b;
+    cursor: pointer;
+    border-radius: 53px;
+    background-color: #fff;
+    border: none;
+  }
+
+  &-agree {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 155%;
+    opacity: 0.7;
+  }
+}
